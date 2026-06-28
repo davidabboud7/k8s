@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: minilab
+data:
+  PG_HOST: "postgres-0.postgres.minilab.svc.cluster.local"
+  PG_DATABASE: "minilab"
+  REDIS_HOST: "redis"
+  PORT: "3000"

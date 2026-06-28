@@ -1,0 +1,9 @@
+{
+  "name": "minilab-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "redis": "^4.6.13",
+    "cheerio": "^1.0.0"
+  }
+}
